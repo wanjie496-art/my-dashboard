@@ -50,7 +50,7 @@ export default function App() {
       structured[k] = slice.map((d) => d[k]);
     });
 
-    const res = await fetch("http://localhost:3000/analyze", {
+    const res = await fetch("https://my-dashboard-5zjj.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ data: structured }),
