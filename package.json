@@ -9,11 +9,15 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "jspdf": "^4.2.1",
+    "openai": "^6.34.0",
+    "papaparse": "^5.5.3",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "recharts": "^3.8.1"
